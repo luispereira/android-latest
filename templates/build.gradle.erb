@@ -1,5 +1,4 @@
-allprojects {
-  ext {
+ext {
     latestAndroidVersionNumber = "<%= hash['latestAndroidVersionNumber'] %>"
     latestAndroidVersionName = "<%= hash['latestAndroidVersionName'] %>"
     latestAndroidReleaseDate = "<%= hash['latestAndroidReleaseDate'] %>"
@@ -9,5 +8,4 @@ allprojects {
     minSdkVersion = <%= hash['minSdkVersion'] %>
     targetSdkVersion = <%= hash['targetSdkVersion'] %>
     latestSupportVersion = "<%= hash['latestSupportVersion'] %>"
-  }
 }
